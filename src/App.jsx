@@ -25,7 +25,7 @@ function handleSubmit(e){
    setNewItem("")
   }
 
-
+ 
  function toggleTodo(id, completed){
   setTodos(currentTodos =>{
     return currentTodos.map(todo =>{
